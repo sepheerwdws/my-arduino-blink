@@ -1,9 +1,14 @@
 void setup() {
-  pinMode(LED_BUILTIN, OUTPUT);
+  pinMode(8, OUTPUT);
+  pinMode(13, OUTPUT);
 }
 void loop() {
-  digitalWrite(LED_BUILTIN, HIGH);  // turn the LED on (HIGH is the voltage level)
-  delay(100000);                      // wait for a second
-  digitalWrite(LED_BUILTIN, LOW);   // turn the LED off by making the voltage LOW
-  delay(100000);                      // wait for a second
+  digitalWrite(8, HIGH);  
+  delay(100000);                   
+  digitalWrite(8, LOW);   
+  delay(100000);           
+  digitalWrite(13, HIGH);  
+  delay(100000);                   
+  digitalWrite(13, LOW);   
+  delay(100000);            
 }
